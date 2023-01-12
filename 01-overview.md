@@ -9,7 +9,7 @@
 - How does data move between Internet-based platforms?
 - Web Application Programming Interfaces (APIs)
 - REpresentational State Transfer (REST)
-- Model Vide Controller architecture (MVC)
+- Model View Controller architecture (MVC)
 
 ### Useful resources
 
