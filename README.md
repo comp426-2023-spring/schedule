@@ -11,7 +11,7 @@ The table will also contain links to any slides used in class sessions and sessi
 | Date | ## | Session | Notes | Slides | Recordings |
 |:--- |:--- |:--- |:--- |:--- |:--- |
 | 2023-01-10 | 00 | [Syllabus day](./00-syllabus.md) | [Notes](./00-syllabus.md#notes) |  | [Recording]() |
-| 2023-01-12 | 01 | [Conceptual Overview](./01-overview.md) | [Notes](./01-overview.md#notes) |  |  |
+| 2023-01-12 | 01 | [Conceptual Overview](./01-overview.md) | [Notes](./01-overview.md#notes) | [Slides](https://docs.google.com/presentation/d/1pvG52hIARKD_JGr1QrtxpY66lShBqVEcNKDBvAe4HS4/edit?usp=sharing) |  |
 | 2023-01-17 | 02 | [bash + vim + git](./02-overview.md) | [Notes](./02-overview.md#notes) |  |  |
 | 2023-01-19 | 03 | Node.js + npm |  |  |  |
 | 2023-01-24 | 04 | Web APIs |  |  |  |
