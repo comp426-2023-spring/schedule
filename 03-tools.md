@@ -37,6 +37,10 @@
 
 [Building a web server in Bash - Part I](https://dev.to/leandronsp/building-a-web-server-in-bash-part-i-sockets-2n8b) - Leandro Proença
 
+#### GitHub resources
+
+[GitHub Docs](https://docs.github.com/en)
+
 #### git resources
 
 [git scm reference](https://git-scm.com/doc)
@@ -62,10 +66,6 @@
 [Oh shit, Git!?!](https://ohshitgit.com/)
 
 [Developers swearing](https://twitter.com/gitlost)
-
-#### GitHub resources
-
-[GitHub Docs](https://docs.github.com/en)
 
 ### Notes
 
