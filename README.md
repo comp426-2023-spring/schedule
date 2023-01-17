@@ -6,14 +6,16 @@ The table below has links to the agenda for each session.
 The agenda pages will also contain notes from each session, linked below.
 The table will also contain links to any slides used in class sessions and session recordings.
 
+All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=19872ac0-1b5a-4093-af2a-af88015ddb9b
+
 ### Session schedule
 
 | Date | ## | Session | Notes | Slides | Recordings |
 |:--- |:--- |:--- |:--- |:--- |:--- |
-| 2023-01-10 | 00 | [Syllabus day](./00-syllabus.md) | [Notes](./00-syllabus.md#notes) |  | [Recording]() |
-| 2023-01-12 | 01 | [Conceptual Overview](./01-overview.md) | [Notes](./01-overview.md#notes) | [Slides](https://docs.google.com/presentation/d/1pvG52hIARKD_JGr1QrtxpY66lShBqVEcNKDBvAe4HS4/edit?usp=sharing) |  |
-| 2023-01-17 | 02 | [bash + vim + git](./02-overview.md) | [Notes](./02-overview.md#notes) |  |  |
-| 2023-01-19 | 03 | Node.js + npm |  |  |  |
+| 2023-01-10 | 00 | [Syllabus day](./00-syllabus.md) | [Notes](./00-syllabus.md#notes) |  | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f39c9e8c-ed9b-4fdd-a66a-af86017b66fb) |
+| 2023-01-12 | 01 | [Conceptual Overview](./01-overview.md) | [Notes](./01-overview.md#notes) | [Slides](https://docs.google.com/presentation/d/1pvG52hIARKD_JGr1QrtxpY66lShBqVEcNKDBvAe4HS4/edit?usp=sharing) | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=01f4d5e1-ccea-443b-aae8-af88017eb128) |
+| 2023-01-17 | 02 | [Tools: bash + vim + git](./02-tools.md) | [Notes](./02-tools.md#notes) |  |  |
+| 2023-01-19 | 03 | [Node.js + npm](./03-node.md) | [Notes](./03-node.md#notes) |  |  |
 | 2023-01-24 | 04 | Web APIs |  |  |  |
 | 2023-01-26 | ** | _No class_ |  |  |  |
 | 2023-01-31 | 05 | Data ingest |  |  |  |
