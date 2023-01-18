@@ -14,6 +14,8 @@
 
 #### Node.js
 
+[About Node.js](https://nodejs.org/en/about/)
+
 [Introduction to Node.js](https://nodejs.dev/learn/) - Node.js
 
 [Node.js Tutorial](https://www.w3schools.com/nodejs/) - w3schools
@@ -21,6 +23,12 @@
 [How to Get Started with Node.js – Beginner's Guide to Node](https://www.freecodecamp.org/news/introduction-to-nodejs/) - Arash Arora, freeCodeCamp
 
 [Node.js Docs](https://nodejs.org/en/docs/) - Node.js
+
+#### Installing and maintaining current Node.js version
+
+[Node.js release schedule](https://blog.risingstack.com/update-node-js-latest-version/#elementor-toc__heading-anchor-2) - Rising Stack
+
+[Node Version Manager (NVM)](https://github.com/nvm-sh/nvm) - POSIX-compliant bash script to manage multiple active node.js versions
 
 #### npm
 
