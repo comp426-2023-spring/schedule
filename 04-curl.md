@@ -4,10 +4,13 @@
 
 ### Agenda
 
+- Housekeeping:
+  1. Office hours and submitting GitHub issues
+  2. GitHub actions interface
 - Accessing an API
 - Routes, Endpoints, and Resources, oh my!
-- URLEncoded v. JSON data bodies
 - cURL: Client for URLs
+- Headers
 - Using cURL to access APIs
 - Demo
 
@@ -25,13 +28,18 @@
 
 #### Curl 
 
-- [Links](https://github.com/comp426-2023-spring) - Author
-- [To](https://github.com/comp426-2023-spring) - Or
-- [Resources](https://github.com/comp426-2023-spring) - Site
+- [curl documentation](https://curl.se/)
+- [curl exercises](https://jvns.ca/blog/2019/08/27/curl-exercises/) - Julia Evans
+
+#### Headers
+
+- [Displaying request headers with curl](https://www.baeldung.com/linux/curl-request-headers) - Baeldung
+- [HTTP status codes](https://www.restapitutorial.com/httpstatuscodes.html) - REST API Tutorial
+- [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 #### Accessing API data with cURL
 
-- [curl - Documentation Overview](https://curl.se/docs/)
 - [What is cURL and how does it relate to APIs?](https://developer.ibm.com/articles/what-is-curl-command/) - Johanna Saladas
 - [Use curl to interact with an API](https://www.redhat.com/sysadmin/use-curl-api) - Seth Kenlon
 - [How to use curl to test a REST API](https://terminalcheatsheet.com/guides/curl-rest-api) - Terminal Cheat Sheet
