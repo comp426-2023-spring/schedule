@@ -16,7 +16,7 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-01-12 | 01 | [Conceptual Overview](./01-overview.md) | [Notes](./01-overview.md#notes) | [Slides](https://docs.google.com/presentation/d/1pvG52hIARKD_JGr1QrtxpY66lShBqVEcNKDBvAe4HS4/edit?usp=sharing) | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=01f4d5e1-ccea-443b-aae8-af88017eb128) |
 | 2023-01-17 | 02 | [Tools: bash + vim + git](./02-tools.md) | [Notes](./02-tools.md#notes) |  | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04706274-2460-4e0e-9637-af8d018563f7) |
 | 2023-01-19 | 03 | [Node.js + npm](./03-node.md) | [Notes](./03-node.md#notes) |  | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e6be22ca-23f2-4d86-a016-af8f0182211a) |
-| 2023-01-24 | 04 | [cURL and Web APIs](./04-curl.md) | [Notes](./04-curl.md#notes) | [Slides](https://docs.google.com/presentation/d/1n-MjBziohhUBEKUnq3Bxe9gZnR4_ZwA08wj-o4joy8g/edit?usp=sharing) | <!--[Recording]()--> |
+| 2023-01-24 | 04 | [cURL and Web APIs](./04-curl.md) | [Notes](./04-curl.md#notes) | [Slides](https://docs.google.com/presentation/d/1n-MjBziohhUBEKUnq3Bxe9gZnR4_ZwA08wj-o4joy8g/edit?usp=sharing) | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9d592765-5bf7-46a3-a9c0-af9401853d1b) |
 | 2023-01-26 | ** | _No class_ | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-01-31 | 05 | Data ingest | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-02-02 | 06 | Data manipulation | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
