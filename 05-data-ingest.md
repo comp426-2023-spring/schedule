@@ -82,13 +82,15 @@ Set the following parameters in your `package.json` file:
   "description": "This package reproduces some of the functionality of cURL using Node.js fetch.",
   "main": "cli.js",
   "scripts": {
-    "test": "node cli.js -X GET -H "Content-Type: application/x-www-form-urlencoded" https://httpbin.org/anything" -d "value=panda" 
+    "test": "node cli.js -X GET -H \"Content-Type: application/x-www-form-urlencoded\" https://httpbin.org/anything -d \"value=panda\" -o ./output.json" 
   },
   "author": "@[YOUR GH USERNAME]",
   "license": "GPL-3.0-or-later"
   }
 }
 ```
+
+
 
 ```
 npm install minimist
@@ -111,6 +113,8 @@ console.log(args)
 ##### What's happening here?
 
 `minimist` takes an array of arguments that we get from the command line and turns them into something useful, namely: an object. 
+
+https://nodejs.org/docs/latest/api/process.html#process
 
 We use the `process` Node builtin object to get the arguments to pass to minimist.
 
@@ -281,6 +285,21 @@ What happens when we run it again?
 
 ```
 node fetch_weather.mjs
+```
+
+```package.json
+{
+  "name": "curl.js",
+  "version": "0.0.0",
+  "description": "This package reproduces some of the functionality of cURL using Node.js fetch.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node cli.js -X GET -H \"Content-Type: application/x-www-form-urlencoded\" https://httpbin.org/anything -d \"value=panda\" -o ./output.json" 
+  },
+  "author": "@[YOUR GH USERNAME]",
+  "license": "GPL-3.0-or-later"
+  }
+}
 ```
 
 _Et voila:_
