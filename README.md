@@ -19,7 +19,7 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-01-24 | 04 | [cURL and Web APIs](./04-curl.md) | [Notes](./04-curl.md#notes) | [Slides](https://docs.google.com/presentation/d/1n-MjBziohhUBEKUnq3Bxe9gZnR4_ZwA08wj-o4joy8g/edit?usp=sharing) | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9d592765-5bf7-46a3-a9c0-af9401853d1b) |
 | 2023-01-26 | ** | _No class_ | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-01-31 | 05 | [Data ingest](./05-data-ingest.md) | [Notes](./05-data-ingest.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-02-02 | 06 | Data manipulation | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-02-02 | 06 | [Manipulating data](./06-manipulating-data.md) | [Notes](./06-manipulating-data.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-02-07 | 07 | Generating data | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-02-09 | 08 | Dependencies | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-02-14 | ** | _Well-being day_ |  |  |  |
