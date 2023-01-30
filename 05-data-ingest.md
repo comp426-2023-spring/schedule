@@ -82,42 +82,69 @@ Set the following parameters in your `package.json` file:
   "description": "This package reproduces some of the functionality of cURL using Node.js fetch.",
   "main": "cli.js",
   "scripts": {
-    "test": "node cli.js -X GET -H \"Content-Type: application/x-www-form-urlencoded\" https://httpbin.org/anything -d \"value=panda\" -o ./output.json" 
+    "test": "node cli.js -X 1 -H 2 3 -d 4 -o 5" 
   },
   "author": "@[YOUR GH USERNAME]",
   "license": "GPL-3.0-or-later"
-  }
 }
 ```
 
-
+Install the `minimist` package:
 
 ```
 npm install minimist
 ```
 
+And then let's explore what `minimist` actually does.
 
-```
-// Load minimist
-const minimist = require('minimist')
-// Step 1: Show array of command line arguments
+Add the following to a file called `cli.js`.
+
+```cli.js
+//// Load minimist
+const minimist = require('minimist');
+//// v1: Show array of command line arguments from the `process` object.
+//// Docs: https://nodejs.org/docs/latest/api/process.html#processargv
 // const args = process.argv;
-// Step 2: Get the arguments AFTER index position 2
-// const args = process.argv.slice(2);
-// Step 3: Create an object from command line arguments
-const args = minimist(process.argv.slice(2));
-// Dump the arguments to STDOUT
-console.log(args)
+//// v2: Slice the array to get the arguments at and after index position 2.
+//// Docs: https://www.w3schools.com/jsref/jsref_slice_array.asp
+// const args = argv.slice(2);
+//// v3: Create an object indexed to command line arguments options.
+//// Docs: https://github.com/minimistjs/minimist
+// const args = minimist(process.argv.slice(2));
+//// You can also curry these functions all together into one line:
+// const args = require('minimist')(process.argv.slice(2);
+//// Dump the arguments to STDOUT
+console.log(args);
 ```
 
-##### What's happening here?
+Under each of the `v[1234]` comment lines below there is a `const args` line.
+Uncomment the first one, write the file, and run `npm test`.
 
-`minimist` takes an array of arguments that we get from the command line and turns them into something useful, namely: an object. 
+Comment the first and then uncomment the second one.
+Run the script again.
 
-https://nodejs.org/docs/latest/api/process.html#process
+Same for the others. 
 
-We use the `process` Node builtin object to get the arguments to pass to minimist.
+##### What's happening here? 
 
+In _v1_, we use the `argv` method in the `process` Node builtin object to get an array of all the command line arguments.
+
+In _v2_, we slice that array at index 2, so we have only the arguments after the actual command (in this case `node cli.js`). 
+
+In _v3_, we pass the sliced array to `minimist` and it processes the array into an object made up of `-`, and `--` options, as well as an array of other arguments not parsed as options.
+
+In _v4_, we curry together the `require('minimist')` and `process.argv.slice(2)` so the we only need one line for all of it.
+
+`minimist` takes an array of arguments that we get from the command line and turns them into something more useful to us, namely: an object.
+
+Now we can call the arguments as variables withing the `args` object
+
+`console.log(args.X)` should dump `1` onto STDOUT.
+`console.log(args._)` should dump `3` onto STDOUT.
+
+And so on.
+
+<!--
 #### Get JSON weather data with cURL
 
 We'll get some weather data from Open Meteo (see ULR builder above) using Curl:
@@ -354,3 +381,4 @@ fs.writeFileSync("./weather_forecast.json", dataString)
 ```
 
 We have to stringify the data to write it to a file or Node will throw us an error, because we are only allow to write text strings to plaintext files.
+-->
