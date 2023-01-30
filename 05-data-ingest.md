@@ -104,7 +104,7 @@ Add the following to a file called `cli.js`.
 const minimist = require('minimist');
 //// v1: Show array of command line arguments from the `process` object.
 //// Docs: https://nodejs.org/docs/latest/api/process.html#processargv
-// const args = process.argv;
+const args = process.argv;
 //// v2: Slice the array to get the arguments at and after index position 2.
 //// Docs: https://www.w3schools.com/jsref/jsref_slice_array.asp
 // const args = argv.slice(2);
