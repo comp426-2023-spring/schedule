@@ -9,11 +9,6 @@
 - Recreate cURL functionality in Node.js with `fetch()`
 - `require()` v. `import` in Node.js
 
-
-# Slides
-
-
-
 ### Useful resources
 
 #### Web APIs
@@ -132,8 +127,9 @@ Now we can call the arguments as variables withing the `args` object
 
 And so on.
 
-<!--
 #### Get JSON weather data with cURL
+
+[Open Meteo - URL Builder](https://open-meteo.com/en/docs#api_form)
 
 We'll get some weather data from Open Meteo (see ULR builder above) using Curl:
 
@@ -191,45 +187,6 @@ curl --silent --get --data 'latitude=35.92&longitude=-79.05' https://api.open-me
 
 Remember that when you want to overwrite a file, you use `>` but when you want to append more to a file you use `>>`.
 
-#### Reading and writing files in Node
-
-Okay, so we have some data in a file.
-
-Let's read that in using Node.
-
-First things first, let's set up a package so we can install things if we need to (hint, we will need to). 
-
-```
-npm init
-```
-
-And then let's write a script to read a file.
-
-```curl.js
-// Load built-in fs module using CommonJS syntax
-const fs = require("fs");
-// Read our JSON file into a variable
-let currentJSON = fs.readFileSync("./current_weather.json"); 
-// Put the data back out onto STDOUT
-console.log(currentJSON);
-```
-
-What's happening here? 
-
-Well, we are reading a JavaScript object into a variable from a file and then echoing that back onto STDOUT but it is not going to make any sense because all we are seeing is the memory buffer.
-We need to convert the object BACK into a string in order to make it make sense for us.
-
-```curl.js
-// Load built-in fs module using CommonJS syntax
-const fs = require("fs");
-// Read our JSON file into a variable
-let currentJSON = fs.readFileSync("./current_weather.json"); 
-// Convert data back to string
-let currentString = JSON.parse(currentJSON);
-// Put the stringified data back out onto STDOUT
-console.log(currentString);
-```
-
 #### Fetch
 
 Fetch is part of the browser-side implementation of the V8 JS engine, but it will not be a built-in for Node until v18.x.x. For now we can install it using: 
@@ -246,6 +203,7 @@ There is one thing though, node-fetch doesn't allow for us to load it using Comm
 // Load fetch
 import fetch from 'node-fetch';
 // Load minimist
+// const minimist = require('fs')
 import minimist from 'minimist';
 // Create an object from command line arguments
 const args = minimist(process.argv.slice(2));
@@ -253,7 +211,9 @@ const args = minimist(process.argv.slice(2));
 console.log(args)
 ```
 
-```
+Let's add the following lines to our `curl.js` script and then we will be able to download 
+
+```curl.js
 // Make a request
 const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=35.92&longitude=-79.05&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York');
 // Get the data from the request
@@ -268,7 +228,7 @@ And then let's run it with Node:
 node curl.js
 ```
 
-This, unfortunately, gives us this error:
+This, unfortunately, gives us this error like this:
 
 ```
 (node:3003) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
@@ -290,23 +250,20 @@ SyntaxError: Cannot use import statement outside a module
 
 BUT, lucky for us, the error tells us _EXACTLY_ what to do to fix it and gives us two options.
 
-Let's take the easier of the two and change the file extension.
+So you can either change the file extension to `.mjs`:
 
 ```
-mv fetch_weather.js fetch_weather.mjs
+mv curl.js curl.mjs
 ```
 
-What happens when we run it again? 
-
-```
-node fetch_weather.mjs
-```
+OR we can update `package.json` with `"type":"module",`
 
 ```package.json
 {
   "name": "curl.js",
   "version": "0.0.0",
   "description": "This package reproduces some of the functionality of cURL using Node.js fetch.",
+  "type":"module",
   "main": "cli.js",
   "scripts": {
     "test": "node cli.js -X GET -H \"Content-Type: application/x-www-form-urlencoded\" https://httpbin.org/anything -d \"value=panda\" -o ./output.json" 
@@ -333,40 +290,7 @@ _Et voila:_
     windspeed: 3.1,
     winddirection: 201,
     weathercode: 80,
-    time: '2022-09-12T20:00'
+    time: '2023-01-31T18:00'
   }
 }
 ```
-
-##### Write out to a file
-
-We will start off with the same thing as previously to get data. 
-
-```curl.js
-// Load fetch
-import fetch from 'node-fetch';
-// Nake a request
-const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=35.92&longitude=-79.05&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York');
-// Get the data from the request
-const data = await response.json();
-```
-
-But instead of logging it onto STDOUT, we are going to write it to a file with the `fs` builtin. 
-
-```fetch_weather.js
-// Load fetch
-import fetch from 'node-fetch';
-// Make a request
-const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=35.92&longitude=-79.05&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York');
-// Get the data from the request
-const data = await response.json();
-// Load fs built-in
-import fs from 'fs';
-// Stringify data
-let dataString = JSON.stringify(data)
-// Write the data to a file
-fs.writeFileSync("./weather_forecast.json", dataString)
-```
-
-We have to stringify the data to write it to a file or Node will throw us an error, because we are only allow to write text strings to plaintext files.
--->
