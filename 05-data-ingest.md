@@ -270,7 +270,6 @@ OR we can update `package.json` with `"type":"module",`
   },
   "author": "@[YOUR GH USERNAME]",
   "license": "GPL-3.0-or-later"
-  }
 }
 ```
 
