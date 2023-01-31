@@ -54,3 +54,45 @@
 [How to work with Node.js and JSON file](https://www.geeksforgeeks.org/how-to-work-with-node-js-and-json-file/) - GeeksForGeeks
 
 ### Notes
+
+<!--
+#### Reading and writing files in Node
+
+Okay, so we have some data in a file.
+
+Let's read that in using Node.
+
+First things first, let's set up a package so we can install things if we need to (hint, we will need to). 
+
+```
+npm init
+```
+
+And then let's write a script to read a file.
+
+```curl.js
+// Load built-in fs module using CommonJS syntax
+const fs = require('fs');
+// Read our JSON file into a variable
+let currentJSON = fs.readFileSync("./current_weather.json"); 
+// Put the data back out onto STDOUT
+console.log(currentJSON);
+```
+
+What's happening here? 
+
+Well, we are reading a JavaScript object into a variable from a file and then echoing that back onto STDOUT but it is not going to make any sense because all we are seeing is the memory buffer.
+We need to convert the object BACK into a string in order to make it make sense for us.
+
+```curl.js
+// Load built-in fs module using CommonJS syntax
+const fs = require("fs");
+// Read our JSON file into a variable
+let currentJSON = fs.readFileSync("./current_weather.json"); 
+// Convert data back to string
+let currentString = JSON.parse(currentJSON);
+// Put the stringified data back out onto STDOUT
+console.log(currentString);
+```
+-->
+
