@@ -94,5 +94,37 @@ let currentString = JSON.parse(currentJSON);
 // Put the stringified data back out onto STDOUT
 console.log(currentString);
 ```
+
+##### Write out to a file
+
+We will start off with the same thing as previously to get data. 
+
+```curl.js
+// Load fetch
+import fetch from 'node-fetch';
+// Nake a request
+const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=35.92&longitude=-79.05&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York');
+// Get the data from the request
+const data = await response.json();
+```
+
+But instead of logging it onto STDOUT, we are going to write it to a file with the `fs` builtin. 
+
+```fetch_weather.js
+// Load fetch
+import fetch from 'node-fetch';
+// Make a request
+const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=35.92&longitude=-79.05&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York');
+// Get the data from the request
+const data = await response.json();
+// Load fs built-in
+import fs from 'fs';
+// Stringify data
+let dataString = JSON.stringify(data)
+// Write the data to a file
+fs.writeFileSync("./weather_forecast.json", dataString)
+```
+
+We have to stringify the data to write it to a file or Node will throw us an error, because we are only allow to write text strings to plaintext files.
 -->
 
