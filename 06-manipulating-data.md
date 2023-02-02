@@ -55,22 +55,59 @@
 
 ### Notes
 
-<!--
 #### Reading and writing files in Node
 
-Okay, so we have some data in a file.
+##### Write out to a file
+
+We will start off with the same thing as previously to get data. 
+
+```curl.js
+import minimist from 'minimist';
+import fetch from 'node-fetch';
+// Get command-line arguments
+const args = minimist(process.argv.slice(2));
+// Put args onto STDOUT
+//console.log(args)
+// Get a URL
+const response = await fetch(args._[0]+'?'+args.d)
+// Store the response JSON data in an object
+const data = await response.json();
+// Echo back the data to SDOUT
+//console.log(data);
+```
+
+But instead of logging it onto STDOUT, we are going to write it to a file with the `fs` builtin. 
+
+```curl.js
+// Load fs built-in
+import fs from 'fs';
+// Stringify data
+let dataString = JSON.stringify(data)
+// Write the data to a file
+fs.writeFileSync("./current_weather.json", dataString)
+```
+
+If we want to add this as an option, let's say `-o`, what do we need to do?
+
+We need to wrap the last line in a conditional and replace the filename with a call to `args.o`, which will send the data to whatever we specify on the command line.
+
+```curl.js
+if (args.o) {
+fs.writeFileSync(args.o, dataString)
+}
+```
+
+We have to stringify the data to write it to a file or Node will throw us an error, because we are only allow to write text strings to plaintext files.
+
+#### Reading data from file
+
+Okay, so what if we have some data in a file?
 
 Let's read that in using Node.
 
-First things first, let's set up a package so we can install things if we need to (hint, we will need to). 
-
-```
-npm init
-```
-
 And then let's write a script to read a file.
 
-```curl.js
+```read_data.js
 // Load built-in fs module using CommonJS syntax
 const fs = require('fs');
 // Read our JSON file into a variable
@@ -81,10 +118,10 @@ console.log(currentJSON);
 
 What's happening here? 
 
-Well, we are reading a JavaScript object into a variable from a file and then echoing that back onto STDOUT but it is not going to make any sense because all we are seeing is the memory buffer.
+We are reading a JavaScript object into a variable from a file and then echoing that back onto STDOUT but it is not going to make any sense because all we are seeing is the memory buffer.
 We need to convert the object BACK into a string in order to make it make sense for us.
 
-```curl.js
+```read_data.js
 // Load built-in fs module using CommonJS syntax
 const fs = require("fs");
 // Read our JSON file into a variable
@@ -94,37 +131,3 @@ let currentString = JSON.parse(currentJSON);
 // Put the stringified data back out onto STDOUT
 console.log(currentString);
 ```
-
-##### Write out to a file
-
-We will start off with the same thing as previously to get data. 
-
-```curl.js
-// Load fetch
-import fetch from 'node-fetch';
-// Nake a request
-const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=35.92&longitude=-79.05&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York');
-// Get the data from the request
-const data = await response.json();
-```
-
-But instead of logging it onto STDOUT, we are going to write it to a file with the `fs` builtin. 
-
-```fetch_weather.js
-// Load fetch
-import fetch from 'node-fetch';
-// Make a request
-const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=35.92&longitude=-79.05&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York');
-// Get the data from the request
-const data = await response.json();
-// Load fs built-in
-import fs from 'fs';
-// Stringify data
-let dataString = JSON.stringify(data)
-// Write the data to a file
-fs.writeFileSync("./weather_forecast.json", dataString)
-```
-
-We have to stringify the data to write it to a file or Node will throw us an error, because we are only allow to write text strings to plaintext files.
--->
-
