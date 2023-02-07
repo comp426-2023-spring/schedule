@@ -10,7 +10,7 @@
 
 # Slides
 
-
+https://docs.google.com/presentation/d/1PuoNWmCzQGgsF8HpJ_LywtJ8g6SA6j2HBu6YxOAQaP0/edit?usp=sharing
 
 ### Useful resources
 
