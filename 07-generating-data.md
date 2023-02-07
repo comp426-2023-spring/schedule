@@ -41,4 +41,8 @@
 
 [JavaScript Prototype](https://www.javascripttutorial.net/javascript-prototype/) - JavaScript Tutorial
 
+#### RPS
+
+https://www.theserverside.com/tutorial/Tutorial-Coding-a-simple-Rock-Paper-Scissors-application-in-JavaScript
+
 ### Notes
