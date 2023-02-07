@@ -53,7 +53,7 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-01-19 23:59 | a00 | Onboarding | Due |
 | 2023-01-26 23:59 | a01 | Node | Due |
 | 2023-02-09 23:59 | a02 | Functions | Due |
-| 2023-02-16 23:59 | a03 | Modules | Due |
+| 2023-02-23 23:59 | a03 | Modules | Due |
 | 2023-02-28 00:00 | **e01** | Midterm exam | Open |
 | 2023-03-02 23:59 | a04 | API | Due |
 | 2023-03-07 23:59 | **e01** | Midterm exam | Close |
