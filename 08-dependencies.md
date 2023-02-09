@@ -15,6 +15,10 @@
 
 ### Useful resources
 
+#### Create NodeJS command line package
+
+https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e
+
 #### Dependency management
 
 [Understanding dependency management with Node Modules](https://levelup.gitconnected.com/understanding-dependency-management-with-node-modules-1c47bcdee98b) - Jason Lai
