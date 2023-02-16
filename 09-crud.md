@@ -8,6 +8,10 @@
 - HTTP methods
 - Rudimentary implementation of CRUD in NodeJS
 
+### Slides
+
+https://docs.google.com/presentation/d/1p9KxQ5hs6O-OS7xldBTZY6tWSBQFxNz8rrY3sQaTmFU/edit?usp=sharing
+
 ### Useful resources
 
 #### CRUD
