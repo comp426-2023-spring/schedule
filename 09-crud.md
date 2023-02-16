@@ -44,3 +44,44 @@ https://docs.google.com/presentation/d/1p9KxQ5hs6O-OS7xldBTZY6tWSBQFxNz8rrY3sQaT
 
 ### Notes
 
+What routes? 
+
+/api/
+
+/api/users/ GET all users
+
+SELECT all records in entire user table.
+
+/api/users/register/ POST username, email address
+
+If no data sent, return error
+
+Else, INSERT record with username, email address, etc. in user table
+
+URLEncoded data
+JSON body
+
+/api/users/ID/ GET one user by ID
+
+If ID doesn't exist, then return an error
+
+Else, SELECT ID record from the user table
+
+/api/users/replace/ID/ PUT one user info in place of same
+
+
+
+/api/users/update/ID/ PATCH one user info to update a key 
+
+If ID doesn't exist, then return an error
+
+Else, UPDATE ID record from the user table with whatever key
+
+URLEncoded
+JSON
+
+/api/users/delete/ID/ DELETE one user record from user data
+
+If ID doesn't exist, then return an error
+
+Else, DELETE ID record from user table
