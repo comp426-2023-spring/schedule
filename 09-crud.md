@@ -1,13 +1,12 @@
-# ** TITLE
+# 09 CRUD
 
-## YYYY-MM-DD
+## 2023-02-16
 
 ### Agenda
 
 - CRUD
 - HTTP methods
-- Topics
-
+- Rudimentary implementation of CRUD in NodeJS
 
 ### Useful resources
 
