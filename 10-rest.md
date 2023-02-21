@@ -43,3 +43,6 @@
 
 ### Notes
 
+We will run through this tutorial in class today: https://adevait.com/nodejs/build-a-crud-app-with-only-json-files
+
+If you were unable to run through the tutorial on your own, the code is here: https://github.com/uma-victor1/CRUD-app-with-JSON-file
