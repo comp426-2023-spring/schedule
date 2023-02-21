@@ -23,26 +23,27 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-02-07 | 07 | [Generating data](./07-generating-data.md) | [Notes](./07-generating-data.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9c661c0-08e6-4e9b-ac42-afa201836134) |
 | 2023-02-09 | 08 | [Dependencies](./08-dependencies.md) | [Notes](./08-dependencies.md#notes) | [Slides](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=90c85d86-4f81-408f-a094-afa4017ecd48) | [Recording]() |
 | 2023-02-14 | ** | _Well-being day_ |  |  |  |
-| 2023-02-16 | 09 | [CRUD](./09-crud.md) | [Notes](./09-crud.md#notes) | [Slides](https://docs.google.com/presentation/d/1p9KxQ5hs6O-OS7xldBTZY6tWSBQFxNz8rrY3sQaTmFU/edit?usp=sharing) | <!--[Recording]()--> |
-| 2023-02-21 | 10 | REST and Express.js | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-02-23 | 11 | Middleware | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-02-28 | 12 | Databases | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-03-07 | 13 | Logging | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-03-09 | 14 | Auth | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-02-16 | 09 | [CRUD](./09-crud.md) | [Notes](./09-crud.md#notes) | [Slides](https://docs.google.com/presentation/d/1p9KxQ5hs6O-OS7xldBTZY6tWSBQFxNz8rrY3sQaTmFU/edit?usp=sharing) | <!--[Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5a3a734-de55-40b4-a469-afab017ed1b4)--> |
+| 2023-02-21 | 10 | [REST and Express.js](./10-rest.md) | [Notes](./10-rest.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-02-23 | 11 | [Middleware](./11-middleware.md) | <!--[Notes](./11-middleware.md#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-02-28 | 12 | Database | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-02 | 13 | Authentication | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-07 | 14 | Authorization | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-09 | 15 | Client-side | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-14 | ** | _Spring Break_ |  |  |  |
 | 2023-03-16 | ** | _Spring Break_ |  |  |  |
-| 2023-03-21 | 15 | Human beings | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-03-23 | 16 | Client-side | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-03-28 | 17 | DOM | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-03-30 | 18 | Architecture (MVC) | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-04 | 19 | Interactions | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-21 | 16 | HTML+CSS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-23 | 17 | Browser JS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-28 | 18 | DOM | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-30 | 19 | Human beings | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-04 | 20 | Interactions | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-04-06 | ** | _Well-being day_ |  |  |  |
-| 2023-04-11 | 20 | Frameworks | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-13 | 21 | Frameworks | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-18 | 22 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-20 | 23 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-25 | 24 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-27 | 25 | Wrap-up | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-11 | 21 | Logging | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-13 | 22 | Frameworks | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-18 | 23 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-20 | 24 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-25 | 25 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-27 | 26 | Wrap-up | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 
 ## Important dates
 
