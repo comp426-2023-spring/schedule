@@ -19,3 +19,5 @@
 [Guide to the Express Router Object — Multiple Requests and Middleware](https://levelup.gitconnected.com/guide-to-the-express-router-object-multiple-requests-and-middleware-9d5c99b2ade6) - John Au-Yeung
 
 ### Notes
+
+Example code for class: https://github.com/jdmar3/coinserver
