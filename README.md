@@ -26,8 +26,8 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-02-16 | 09 | [CRUD](./09-crud.md) | [Notes](./09-crud.md#notes) | [Slides](https://docs.google.com/presentation/d/1p9KxQ5hs6O-OS7xldBTZY6tWSBQFxNz8rrY3sQaTmFU/edit?usp=sharing) | <!--[Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5a3a734-de55-40b4-a469-afab017ed1b4)--> |
 | 2023-02-21 | 10 | [REST and Express.js](./10-rest.md) | [Notes](./10-rest.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-02-23 | 11 | [Middleware](./11-middleware.md) | <!--[Notes](./11-middleware.md#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-02-28 | 12 | Database | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-03-02 | 13 | Authentication | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-02-28 | 12 | [Database](./12-database.md) | [Notes](./12-database.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-02 | 13 | [Authentication](./13-authentication.md) | [Notes](#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-07 | 14 | Authorization | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-09 | 15 | Client-side | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-14 | ** | _Spring Break_ |  |  |  |
@@ -56,13 +56,13 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-02-09 23:59 | a02 | Functions | Due |
 | 2023-02-23 23:59 | a03 | Modules | Due |
 | 2023-03-02 00:00 | **e01** | Midterm exam | Open |
-| 2023-03-02 23:59 | a04 | API | Due |
+| 2023-03-09 23:59 | a04 | API | Due |
 | 2023-03-07 23:59 | **e01** | Midterm exam | Close |
-| 2023-03-09 23:59 | a05 | Database | Due |
+| 2023-03-23 23:59 | a05 | Database | Due |
 | 2023-03-11 00:00 | **  | Spring Break | Begin |
 | 2023-03-19 23:59 | **  | Spring Break | End |
-| 2023-03-23 23:59 | a06 | Auth | Due |
-| 2023-03-30 23:59 | a07 | Logging | Due |
+| 2023-03-30 23:59 | a06 | Auth | Due |
+| 2023-04-06 23:59 | a07 | Logging | Due |
 | 2023-04-13 23:59 | a08 | Human interface | Due |
 | 2023-04-27 23:59 | a09 | Advanced interface | Due |
 | 2023-05-05 19:00 | **  | Final exam | Period |
