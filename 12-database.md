@@ -1,4 +1,4 @@
-# 12 Databaset
+# 12 Database
 
 ## 2023-02-28
 
