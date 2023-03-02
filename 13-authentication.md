@@ -11,6 +11,12 @@
 
 ### Useful links
 
+#### Tutorial for in-class example
+
+[Node.js – API JWT Authentication With SQLite Database](https://fullstacksoup.blog/2021/09/17/node-js-api-jwt-authentication-with-sqlite-database/) - Danny B., _Full Stack Soup_
+
+[Code for above example](https://github.com/fullstacksoup/blog-node-sqllite-jwt-auth-example)
+
 #### PassportJS
 
 [Passport.js](https://www.passportjs.org/)
