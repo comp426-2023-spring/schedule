@@ -24,9 +24,9 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-02-09 | 08 | [Dependencies](./08-dependencies.md) | [Notes](./08-dependencies.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=90c85d86-4f81-408f-a094-afa4017ecd48) |
 | 2023-02-14 | ** | _Well-being day_ |  |  |  |
 | 2023-02-16 | 09 | [CRUD](./09-crud.md) | [Notes](./09-crud.md#notes) | [Slides](https://docs.google.com/presentation/d/1p9KxQ5hs6O-OS7xldBTZY6tWSBQFxNz8rrY3sQaTmFU/edit?usp=sharing) | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5a3a734-de55-40b4-a469-afab017ed1b4) |
-| 2023-02-21 | 10 | [REST and Express.js](./10-rest.md) | [Notes](./10-rest.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-02-23 | 11 | [Middleware](./11-middleware.md) | <!--[Notes](./11-middleware.md#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-02-28 | 12 | [Database](./12-database.md) | [Notes](./12-database.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-02-21 | 10 | [REST and Express.js](./10-rest.md) | [Notes](./10-rest.md#notes) | <!--[Slides]()--> | <!--[Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8789bb55-f03d-44cb-bad8-afb0017f5928)--> |
+| 2023-02-23 | 11 | [Middleware](./11-middleware.md) | <!--[Notes](./11-middleware.md#notes)--> | <!--[Slides]()--> | <!--[Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3b00013c-686c-4e5c-b7df-afb20182090f)--> |
+| 2023-02-28 | 12 | [Database](./12-database.md) | [Notes](./12-database.md#notes) | <!--[Slides]()--> | <!--[Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7ad0ce55-1266-4739-8cb8-afb70180afa1)--> |
 | 2023-03-02 | 13 | [Authentication](./13-authentication.md) | [Notes](#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-07 | 14 | Authorization | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-09 | 15 | Client-side | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
