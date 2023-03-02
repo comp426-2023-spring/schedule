@@ -19,6 +19,10 @@
 
 [Using cURL to authenticate with JWT Bearer tokens](https://nieldw.medium.com/using-curl-to-authenticate-with-jwt-bearer-tokens-55b7fac506bd) - Niel de Wet
 
+[sqlite3 - npm](https://www.npmjs.com/package/sqlite3)
+
+[node-sqlite3](https://github.com/TryGhost/node-sqlite3) - source repo for sqlite3 node package
+
 #### PassportJS
 
 [Passport.js](https://www.passportjs.org/)
