@@ -17,6 +17,8 @@
 
 [Code for above example](https://github.com/fullstacksoup/blog-node-sqllite-jwt-auth-example)
 
+[Using cURL to authenticate with JWT Bearer tokens](https://nieldw.medium.com/using-curl-to-authenticate-with-jwt-bearer-tokens-55b7fac506bd) - Niel de Wet
+
 #### PassportJS
 
 [Passport.js](https://www.passportjs.org/)
