@@ -28,7 +28,7 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-02-23 | 11 | [Middleware](./11-middleware.md) | <!--[Notes](./11-middleware.md#notes)--> | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3b00013c-686c-4e5c-b7df-afb20182090f) |
 | 2023-02-28 | 12 | [Database](./12-database.md) | [Notes](./12-database.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7ad0ce55-1266-4739-8cb8-afb70180afa1) |
 | 2023-03-02 | 13 | [Authentication](./13-authentication.md) | [Notes](./13-authentication.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=16ad434f-a299-461b-ba0e-afb90181128f) |
-| 2023-03-07 | 14 | [Authorization](./14-authorization.md) | [Notes](./14-authorization.md#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-07 | 14 | [Authorization](./14-authorization.md) | [Notes](./14-authorization.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-09 | 15 | Client-side | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-14 | ** | _Spring Break_ |  |  |  |
 | 2023-03-16 | ** | _Spring Break_ |  |  |  |
