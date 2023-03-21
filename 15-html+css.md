@@ -21,14 +21,14 @@
 
 ### Checklist of HTML features to understand
 
-[] Basic page structure
-[] Text elements
-[] Interactive elements
-[] Linking to other files
+- [ ] Basic page structure
+- [ ] Text elements
+- [ ] Interactive elements
+- [ ] Linking to other files
 
 #### checklist of CSS features to understand
 
-[] dot classes vs. hash identifiers
-[] cascading
-[] 
-[] 
+- [ ] dot classes vs. hash identifiers
+- [ ] cascading
+- [ ] 
+- [ ] 
