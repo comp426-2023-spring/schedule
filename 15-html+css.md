@@ -25,10 +25,11 @@
 - [ ] Text elements
 - [ ] Interactive elements
 - [ ] Linking to other files
+- [ ] HTML element attributes
 
 #### checklist of CSS features to understand
 
-- [ ] dot classes vs. hash identifiers
-- [ ] cascading
-- [ ] 
-- [ ] 
+- [ ] Dot classes vs. Hash identifiers
+- [ ] Cascading
+- [ ] CSS attributes
+- [ ] Pseudo-classes
