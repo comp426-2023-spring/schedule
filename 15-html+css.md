@@ -90,4 +90,10 @@ This will help you to better understand general HTML layout and how it can be st
 
 Review at least the basic w3schools CSS tutorials: https://www.w3schools.com/css/default.asp.
 
-Cascading Style Sheet (CSS) language is used to [style HTML elements](https://www.w3schools.com/css/css_intro.asp)
+Cascading Style Sheet (CSS) language is used to [style HTML elements](https://www.w3schools.com/css/css_intro.asp) and has a [relatively straightfoward syntax](https://www.w3schools.com/css/css_syntax.asp). 
+
+
+
+#### 6. Style page with CSS
+
+
