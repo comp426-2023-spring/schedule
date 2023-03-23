@@ -1,6 +1,6 @@
 # 15 - HTML & CSS
 
-## 2023-03-21
+## Week of 2023-03-21
 
 ### Agenda
 
@@ -21,13 +21,34 @@ This lesson will focus a bit more on things like syntax, structure, and relation
 
 #### 1. Basic HTML document structure
 
+HyperText Markup Language (HTML) is a markup langauge used to make plaintext into dynamic interfaces.
+A markup language is not a programming language, per say, but it has programmatic features.
+It's best understood as a set of directives for how text or other visual features in an interface should be presented. 
+
+I am using the term "interface" here in the broadest possible sense, per usual. 
+
+A book, a paper codex with boards on the front and the back and a bunch of bound paper pages with glyphs inscribed upon them, is an interface.
+
+A webpage, viewed in a web browser, is an interface. 
+
+The former is not dynamic.
+
+Once it is printed, it does not change readily.
+Markup on an interface like a book is not dynamic and only appears as scribbling on printed pages. 
+
+The latter, however, is very dynamic.
+
+The text can change and be updated dynamically. 
+The shape and style and colors of the text can be updated dynamically. 
+Markup in an interface like a web page provides directives about how the interface should be update and under what circumstances.
+
 Start with the basics: [a simple HTML document](https://www.w3schools.com/htmL/html_intro.asp).
 
 Pay attention to syntax and style: [this will make your life easier](https://www.w3schools.com/html/html5_syntax.asp).
 
 Know where the visible and invisible pieces go: [head elements](https://www.w3schools.com/htmL/html_head.asp).
 
-#### Web server handling of HTML and related files
+#### 2. Web server handling of HTML and related files
 
 Your webserver will serve all of the files in a directory to a client.
 
@@ -35,7 +56,7 @@ The client actually assembles the document by drawing information from the links
 
 Make sure you understand how this works: [file paths](https://www.w3schools.com/htmL/html_filepaths.asp).
 
-#### 2. Elements & attributes
+#### 3. Elements & attributes
 
 Everything between two carets `<>` is called a tag or an element: [HTML elements](https://www.w3schools.com/htmL/html_elements.asp).
 
@@ -51,7 +72,7 @@ Most of the w3schools tutorials are about how to use different elements, like [h
 
 For full list of HTML elements/tags, see the [reference list](https://www.w3schools.com/tags/).
 
-#### Responsive structure underlying design
+#### 4. Responsive structure underlying design
 
 Responsive design is crucial now.
 There is no excuse to not be using responsive design when creating web documents.
@@ -63,21 +84,10 @@ Read this [Hands-On Guide to Mobile-First Design](https://www.uxpin.com/studio/b
 
 To get started with responsive design structure, start here: [basic responsive design principles and methods](https://www.w3schools.com/htmL/html_responsive.asp).
 
-This wiil help you to better understand general HTML layout and how it can be structured to facilitate responsive design: [layout elements and techniques](https://www.w3schools.com/htmL/html_layout.asp)
+This will help you to better understand general HTML layout and how it can be structured to facilitate responsive design: [layout elements and techniques](https://www.w3schools.com/htmL/html_layout.asp)
 
-### Notes
+#### 5. Basic CSS principles
 
-### Checklist of HTML features to understand
+Review at least the basic w3schools CSS tutorials: https://www.w3schools.com/css/default.asp.
 
-- [ ] Basic page structure
-- [ ] Text elements
-- [ ] Interactive elements
-- [ ] Linking to other files
-- [ ] HTML element attributes
-
-#### checklist of CSS features to understand
-
-- [ ] Dot classes vs. Hash identifiers
-- [ ] Cascading
-- [ ] CSS attributes
-- [ ] Pseudo-classes
+Cascading Style Sheet (CSS) language is used to [style HTML elements](https://www.w3schools.com/css/css_intro.asp)
