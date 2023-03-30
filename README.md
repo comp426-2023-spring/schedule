@@ -34,16 +34,16 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-03-16 | ** | _Spring Break_ |  |  |  |
 | 2023-03-21 | 16 | HTML+CSS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-23 | 17 | Browser JS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-03-28 | 18 | DOM | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-03-30 | 19 | Human beings | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-04 | 20 | Interactions | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-28 | ** | COVID-19 Canceled | | | |
+| 2023-03-30 | 18 | [DOM](./18-dom.md) | [Notes](./18-dom.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-04 | 19 | Human beings | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-04-06 | ** | _Well-being day_ |  |  |  |
-| 2023-04-11 | 21 | Logging | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-13 | 22 | Frameworks | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-18 | 23 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-20 | 24 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-25 | 25 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-27 | 26 | Wrap-up | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-11 | 20 | Interactions | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-13 | 21 | Logging | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-18 | 22 | Frameworks | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-20 | 23 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-25 | 24 | Flex | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-27 | 25 | Wrap-up | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 
 ## Important dates
 
