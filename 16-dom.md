@@ -43,20 +43,5 @@ If we look at these elements as a hierarchy of nodes, then we can represent them
         - p
             - text: "What is the DOM?"
 
-Or, perhaps like this:
-
-```scripts.js
-const DOM = { 
-  html : { 
-    head : { title : { text : 'Document Object Model" }, },
-    body : {
-      p : {
-        text : "What is the DOM?"
-      },
-    },
-  },
-};
-```
-
 And we will go from there.
 
