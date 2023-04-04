@@ -66,7 +66,7 @@ Create your very own extremely rudimentary Chapel Hill current weather interface
 
 How can we make information legible to users?
 
-If we have JSON that looks like this, how could we turn the wind direction number into something that would make sense to a human person?
+If we have JSON that looks like this, how could we turn the wind direction number into something that would make sense to a human person? 
 
 https://api.open-meteo.com/v1/forecast?latitude=35.91&longitude=-79.06&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York
 
@@ -96,3 +96,8 @@ Or you can print it pretty like this, by going to https://codebeautify.org/jsonv
   }
 }
 ```
+
+
+Remember that the wind direction here is reckoned as the degree of origin on a 360 degree field.
+
+So, 0 should be NORTH and 180 should be SOUTH. 
