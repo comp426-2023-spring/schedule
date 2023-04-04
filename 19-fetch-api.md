@@ -25,3 +25,5 @@ https://github.com/comp426-2023-spring/my-express-server
 [Fetch Standard](https://fetch.spec.whatwg.org/) - Web Hypertext Application Technology Working Group (WHATWG)
 
 ### Notes
+
+[Open-Meteo Weather API Docs](https://open-meteo.com/en/docs)
