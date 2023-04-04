@@ -27,3 +27,37 @@ https://github.com/comp426-2023-spring/my-express-server
 ### Notes
 
 [Open-Meteo Weather API Docs](https://open-meteo.com/en/docs)
+
+Create your very own extremely rudimentary Chapel Hill current weather interface!
+
+```
+<html>
+    <head>
+        <title>Chapel Hill Weather</title>
+    </head>
+    <body>
+        <h1 id="hello">Here's the weather in Chapel Hill right now.</h1>
+                <p>The current temperature in Chapel Hill is <span id="temperature">temperature</span>&#8451;.</p>
+                <p>The current wind speed is <span id="windspeed">windspeed</span> kph.
+    <script>
+                async function getWeather() {
+                        let response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=35.91&longitude=-79.05&current_weather=true');
+                        console.log(response.status);
+                        //console.log(response.statusText);
+
+                        let data = await response.json();
+                        console.log(data);
+                        let temperature = document.querySelector('#temperature');
+                        console.log(temperature);
+                        temperature.innerText = data.current_weather.temperature;
+                        let windspeed = document.getElementById('windspeed');
+                        console.log(windspeed);
+                        windspeed.textContent = data.current_weather.windspeed;
+                }
+
+                getWeather();
+
+        </script>
+    </body>
+</html>
+```
