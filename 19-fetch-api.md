@@ -30,7 +30,7 @@ https://github.com/comp426-2023-spring/my-express-server
 
 Create your very own extremely rudimentary Chapel Hill current weather interface!
 
-```
+```index.html
 <html>
     <head>
         <title>Chapel Hill Weather</title>
