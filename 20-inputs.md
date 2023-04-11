@@ -20,7 +20,7 @@
 
 #### Storing data in the browser
 
-[HTML Web Storage]([https://www.w3schools.com/html/html5_geolocation.asp](https://www.w3schools.com/html/html5_webstorage.asp) - w3schools
+[HTML Web Storage](https://www.w3schools.com/html/html5_webstorage.asp) - w3schools
 
 ### Notes
 
