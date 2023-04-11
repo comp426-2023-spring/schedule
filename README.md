@@ -35,8 +35,8 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-03-21 | 16 | HTML+CSS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-23 | 17 | Browser JS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-03-28 | ** | COVID-19 Canceled | | | |
-| 2023-03-30 | 18 | [DOM API](./18-dom.md) | [Notes](./18-dom.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-04 | 19 | [Fetch API](./19-fetch-api.md) | [Notes](./19-fetch.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-30 | 18 | [DOM API](./18-dom.md) | [Notes](./18-dom.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c40f1d6a-35a9-4ede-807f-afd501700299) |
+| 2023-04-04 | 19 | [Fetch API](./19-fetch-api.md) | [Notes](./19-fetch.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f909fe93-1c8f-48e3-a7bf-afda0170aa0a) |
 | 2023-04-06 | ** | _Well-being day_ |  |  |  |
 | 2023-04-11 | 20 | [Inputs](./20-inputs.md) | [Notes](./20-inputs.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-04-13 | 21 | Logging | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
