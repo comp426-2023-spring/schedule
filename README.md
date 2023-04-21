@@ -39,11 +39,11 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-04-04 | 19 | [Fetch API](./19-fetch-api.md) | [Notes](./19-fetch.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f909fe93-1c8f-48e3-a7bf-afda0170aa0a) |
 | 2023-04-06 | ** | _Well-being day_ |  |  |  |
 | 2023-04-11 | 20 | [Inputs](./20-inputs.md) | [Notes](./20-inputs.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-13 | 21 | Logging | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-18 | 22 | Login/logout | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-20 | 23 | SPA | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-25 | 24 | Architecture | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-27 | 25 | Wrap-up | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-13 | ** | _Canceled_ | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-18 | 21 | HTTPS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-20 | 22 | Design | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-25 | 23 | Architecture | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-27 | 24 | Wrap-up | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 
 ## Important dates
 
@@ -62,7 +62,7 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-03-19 23:59 | **  | Spring Break | End |
 | 2023-04-20 23:59 | a05 | Login interface | Due |
 | 2023-04-27 23:59 | a06+ | All extra credit | Due |
-| 2023-05-09 19:00 | **  | Final exam | Period |
+| 2023-05-09 16:00 | **  | Final exam | Period |
 | 2023-05-09 22:00 | a99 | Collaborative development project | Due |
 | 2023-05-09 22:00 | **e02** | Final self + group eval | Due |
 | 2023-05-09 22:00 | **e99** | Comprehensive final exam | Close |
