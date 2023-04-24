@@ -62,6 +62,6 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-03-19 23:59 | **  | Spring Break | End |
 | 2023-04-27 23:59 | **  | All regular assignments due | Due |
 | 2023-05-09 16:00 | **  | Final exam | Period |
-| 2023-05-09 22:00 | a99 | Collaborative development project | Due |
-| 2023-05-09 22:00 | **e02** | Final self + group eval | Due |
-| 2023-05-09 22:00 | **e99** | Comprehensive final exam | Close |
+| 2023-05-09 19:00 | a99 | Collaborative development project | Due |
+| 2023-05-09 19:00 | **e02** | Final self + group eval | Due |
+| 2023-05-09 19:00 | **e99** | Comprehensive final exam | Close |
