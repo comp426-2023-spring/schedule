@@ -56,12 +56,11 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-02-09 23:59 | a02 | Functions | Due |
 | 2023-02-23 23:59 | a03 | Modules | Due |
 | 2023-03-02 00:00 | **e01** | Midterm exam | Open |
-| 2023-03-09 23:59 | a04 | API | Due |
+| 2023-04-06 23:59 | a04 | API | Due |
 | 2023-03-23 23:59 | **e01** | Midterm exam | Close |
 | 2023-03-11 00:00 | **  | Spring Break | Begin |
 | 2023-03-19 23:59 | **  | Spring Break | End |
-| 2023-04-20 23:59 | a05 | Login interface | Due |
-| 2023-04-27 23:59 | a06+ | All extra credit | Due |
+| 2023-04-27 23:59 | **  | All regular assignments due | Due |
 | 2023-05-09 16:00 | **  | Final exam | Period |
 | 2023-05-09 22:00 | a99 | Collaborative development project | Due |
 | 2023-05-09 22:00 | **e02** | Final self + group eval | Due |
