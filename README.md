@@ -43,7 +43,7 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-04-18 | 21 | HTTPS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-04-20 | 22 | Design | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
 | 2023-04-25 | 23 | Architecture | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-27 | 24 | Wrap-up | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-27 | 24 | [Wrap-up](./24-wrapup.md) | [Notes](./24-wrapup.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
 
 ## Important dates
 
