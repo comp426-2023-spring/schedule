@@ -12,6 +12,22 @@
 
 ### Useful resources
 
+https://www.w3schools.com/tags/tag_button.asp
+
+#### Actions
+
+[HTMLFormElement: reset() method](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset)
+
+[JavaScript if, else, and else if](https://www.w3schools.com/js/js_if_else.asp)
+
+[Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
+[Get value of selected radio button with JavaScript/jQuery](https://www.techiedelight.com/get-value-of-selected-radio-button-javascript/)
+
+#### jQuery
+
+[Downloading jQuery](https://jquery.com/download/)
+
 ### Notes
 
 Here is the partial interface HTML that we were looking at in class. 
