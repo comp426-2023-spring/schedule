@@ -28,8 +28,8 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-02-23 | 11 | [Middleware](./11-middleware.md) | <!--[Notes](./11-middleware.md#notes)--> | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3b00013c-686c-4e5c-b7df-afb20182090f) |
 | 2023-02-28 | 12 | [Database](./12-database.md) | [Notes](./12-database.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7ad0ce55-1266-4739-8cb8-afb70180afa1) |
 | 2023-03-02 | 13 | [Authentication](./13-authentication.md) | [Notes](./13-authentication.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=16ad434f-a299-461b-ba0e-afb90181128f) |
-| 2023-03-07 | 14 | [Authorization](./14-authorization.md) | [Notes](./14-authorization.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-03-09 | 15 | Client-side | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-03-07 | 14 | [Authorization](./14-authorization.md) | [Notes](./14-authorization.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ce3564ed-2f70-4c7a-a8fa-afbe01851af9) |
+| 2023-03-09 | 15 | Client-side | <!--[Notes](#notes)--> | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e02be76-212d-4f0b-b0fd-afc0017cc8ad) |
 | 2023-03-14 | ** | _Spring Break_ |  |  |  |
 | 2023-03-16 | ** | _Spring Break_ |  |  |  |
 | 2023-03-21 | 16 | HTML+CSS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
@@ -38,12 +38,12 @@ All recordings will be available here: https://uncch.hosted.panopto.com/Panopto/
 | 2023-03-30 | 18 | [DOM API](./18-dom.md) | [Notes](./18-dom.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c40f1d6a-35a9-4ede-807f-afd501700299) |
 | 2023-04-04 | 19 | [Fetch API](./19-fetch-api.md) | [Notes](./19-fetch.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f909fe93-1c8f-48e3-a7bf-afda0170aa0a) |
 | 2023-04-06 | ** | _Well-being day_ |  |  |  |
-| 2023-04-11 | 20 | [Inputs](./20-inputs.md) | [Notes](./20-inputs.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-13 | ** | _Canceled_ | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-18 | 21 | HTTPS | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-20 | 22 | Design | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-25 | 23 | Architecture | <!--[Notes](#notes)--> | <!--[Slides]()--> | <!--[Recording]()--> |
-| 2023-04-27 | 24 | [Wrap-up](./24-wrapup.md) | [Notes](./24-wrapup.md#notes) | <!--[Slides]()--> | <!--[Recording]()--> |
+| 2023-04-11 | 20 | [Inputs](./20-inputs.md) | [Notes](./20-inputs.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54185e01-2064-45ad-8558-afe10171f7c0) |
+| 2023-04-13 | ** | _Canceled_ | <!--[Notes](#notes)--> | <!--[Slides]()--> |  |
+| 2023-04-18 | 21 | HTTPS | <!--[Notes](#notes)--> | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7d6b17ef-565a-4b9f-9b25-afe8016dcfa8) |
+| 2023-04-20 | 22 | Design | <!--[Notes](#notes)--> | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=17d76207-bbe9-4960-b629-afea016f6061) |
+| 2023-04-25 | 23 | Architecture | <!--[Notes](#notes)--> | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a54f6df-d9fb-46b0-ac22-afef0174c494) |
+| 2023-04-27 | 24 | [Wrap-up](./24-wrapup.md) | [Notes](./24-wrapup.md#notes) | <!--[Slides]()--> | [Recording](https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a95f9d0-9dc3-4222-a346-aff101758df9) |
 
 ## Important dates
 
